@@ -2,11 +2,8 @@ div(ng-include='"components/navbar/navbar.html"')
 
 .container.text-center
   .jumbotron
-    h1 Group Voice Biometrics
-    p A demo app to identify individuals within a group
-    p Voice biometrics provided by
-      = ' '
-      a(href='http://www.voiceit-tech.com/', target='_blank') VoiceIt
+    h1 Voice Biometrics
+    p a voice authentication system for SPU
 
   .row
     .col-sm-6
@@ -15,7 +12,7 @@ div(ng-include='"components/navbar/navbar.html"')
           h3.panel-title Enrollment
         .panel-body
           p.
-            The first step is enrollment. This is the process of registering a user's voice with VoiceIt.
+            The first step is enrollment. This is the process of registering a user's voice
             Once a user has registered, they can authenticate.
           p
             a.btn.btn-success(id='enrollButton', href='/enroll', role='button') Enroll
@@ -33,8 +30,4 @@ div(ng-include='"components/navbar/navbar.html"')
   .row
     .col-sm-12
       hr
-      p Greg Millward
-        = ' | '
-        a(href='https://twitter.com/gregmillward') @gregmillward
-        = ' | '
-        a(href='https://github.com/gmillward/group-voice-biometrics') GitHub
+    
